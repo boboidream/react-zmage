@@ -77,7 +77,6 @@ export default class Browser extends React.PureComponent {
         const { isBrowsingControlled, coverRef, set, onBrowsing, coverVisible, directZoom } = this.props
         const { show, page, pageIsCover } = this.state
         
-        console.log(directZoom)
         if (!show) {
             window.addEventListener('keydown', this.handleKeyDown)
             window.addEventListener('scroll', this.handleScroll)

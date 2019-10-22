@@ -57,7 +57,7 @@ class ReactZmageCallee extends React.PureComponent {
             // Control
             controller, hotKey, animate,
             // Styles & interactive
-            zIndex, backdrop, radius, edge, loop,
+            zIndex, backdrop, radius, edge, loop, directZoom,
             // Life cycle functions
             onBrowsing, onZooming, onSwitching, onRotating,
             // Controlled props
@@ -92,6 +92,7 @@ class ReactZmageCallee extends React.PureComponent {
                 radius={radius}
                 edge={edge}
                 loop={loop}
+                directZoom={directZoom}
                 // Life cycle functions
                 onBrowsing={onBrowsing}
                 onZooming={onZooming}
