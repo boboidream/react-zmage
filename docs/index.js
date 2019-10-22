@@ -92,6 +92,7 @@ export default class App extends React.Component {
 {`<Zmage
     src="https://your.image.link.jpg"
     alt="放大图片并并滑动预览"
+    directZoom={true} // 可直接进入 zoom 模式
 />`}
 </PrismCode>
                 </pre>
@@ -101,6 +102,7 @@ export default class App extends React.Component {
                             className={style.image}
                             src="imgSet/childsDream/2.jpg"
                             alt="放大图片并并滑动预览"
+                            directZoom={true} 
                         />
                         <a href="https://www.behance.net/gallery/56119387/_">via. sslololss Guihuahuzi on behance</a>
                     </div>

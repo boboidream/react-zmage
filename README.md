@@ -1,3 +1,12 @@
+本 fork 更新参数
+
+```js
+directZoom: [true | false] // 是否直接进入 zoom 模式
+```
+
+安装：`npm install boboidream/react-zmage -S`
+
+---
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)
 
 <div align="center">

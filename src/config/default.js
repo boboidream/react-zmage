@@ -116,6 +116,8 @@ export const defType = {
     edge: PropTypes.number,
     // 循环
     loop: PropTypes.bool,
+    // 是否直接进入 zoomIn
+    directZoom: PropTypes.bool,
 
     /**
      * 生命周期
@@ -222,6 +224,8 @@ export const defProp = {
     edge: 0,
     // 是否循环查看
     loop: true,
+    // 是否直接进入 zoomIn
+    directZoom: false,
 
     /**
      * 生命周期
